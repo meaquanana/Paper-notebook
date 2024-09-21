@@ -1,6 +1,6 @@
 ### Improving Visual Grounding by Encouraging Consistent Gradient-based Explanations(CVPR)
 
-#### Abstruct
+#### Abstract
 提出了Attention Mask Consistency(AMC)来让vision-language model的梯度更关注由数据集提供的region-level annotations。说白了就是让模型在训练的时候，能更关注text中提到的object的信息，只是这里不是用注意力做的，而是根据GradCAM生成的热力图设计损失。
 
 ![](pic/sample.png)

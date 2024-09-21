@@ -1,6 +1,6 @@
 ###  Mask Grounding for Referring Image Segmentation(CVPR)
 
-#### Abstruct
+#### Abstract
 **Referring Image Segmentation (RIS)：对文本指定的object进行分割，和普通的grounding任务不同，多了个refer，也就是推理的过程，举个例子：输入文本是the third kid ，那么输出的掩码就应该是第三个kid，而不是其他两个**
 
 所以相比于其他任务，RIS需要更细粒度的文本图像对齐，才能够去推理理解文本和图像之间关系，为了解决这个问题，本文提出Mask Grounding 的辅助任务。
