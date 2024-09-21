@@ -1,6 +1,6 @@
 # [Improved Visual Grounding through Self-Consistent Explanations](https://arxiv.org/abs/2312.04554)
 
-## Abstruct
+## Abstract
 本文提出了一个新的weakly supervise的训练策略SelfEQ。具体来说，对于一个输入的图像文本对，使用一个LLM对文本生成新的表示(例如释义，同义词替换)，并且希望通过对模型进行finetune使原始短语和新释义映射到图像中的同一区域。这个方法不仅扩展了模型能够处理的词汇，同时又提高了Gradient-Base例如Gradcam对目标定位的质量。
 ![](pic/selfeq1.png)
 ## Motivation

@@ -1,6 +1,6 @@
 ### Grounded Language-Image Pre-training
 
-#### Abstruct
+#### Abstract
 
 提出了GLIP用来学习Object-level(region)，language-aware(语言特征)和丰富的语义信息的表征。
 两个优点:

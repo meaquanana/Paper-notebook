@@ -1,6 +1,6 @@
 ### Cycle-Consistency Learning for Captioning and Grounding(AAAI)
 
-#### Abstruct
+#### Abstract
 作者指出image caption和visual grounding其实是一个互逆的过程(核心动机)，提出了CyCo这个循环一致性的framework来改进之前caption和grounding独立训练的过程(变成联合训练)。
 
 **这个框架的目标**
